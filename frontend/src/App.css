@@ -1,0 +1,96 @@
+.app-root {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0 0 6px 0;
+  font-size: 28px;
+  line-height: 1.15;
+  color: var(--accent-2);
+}
+
+.subtitle {
+  margin: 0 0 18px 0;
+  color: var(--muted);
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 6px 20px rgba(11, 18, 32, 0.04);
+  border: 1px solid #eee;
+}
+
+.label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+  color: var(--accent-2);
+}
+
+.input {
+  display: block;
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  max-width: 520px;
+  font-size: 14px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  align-items: center;
+}
+
+.btn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: var(--accent-2);
+  color: white;
+  font-weight: 600;
+}
+
+.btn.secondary {
+  background: transparent;
+  color: var(--accent-2);
+  border: 1px solid #e6eef6;
+}
+
+.btn.small {
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+.error {
+  margin-top: 12px;
+  color: var(--danger);
+  background: #fff0f0;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.generated {
+  margin-top: 18px;
+}
+
+.output {
+  white-space: pre-wrap;
+  background: var(--card);
+  padding: 12px;
+  border-radius: 8px;
+  min-height: 120px;
+  margin-top: 8px;
+  border: 1px solid #f0f0f2;
+}
+
+.copy-wrap {
+  margin-top: 8px;
+}
