@@ -1,161 +1,155 @@
-AI Proposal Builder — Case Study Project
+# 🤖 AI Proposal Builder — One-Day Case Study Project
 
-A mini full-stack AI tool designed to generate professional client proposals instantly from minimal user inputs.
+---
 
-This project was built as part of the Lunim Studio – Stage 2 Engineering Case Study, completed under an 8-hour challenge constraint.
+## 🌐 Live Demo
 
-🚀 Features
+👉 **Frontend:**  https://ai-proposal-builder.vercel.app/ 
 
-Instant Generation: AI-generated professional project proposals in seconds.
 
-Minimalist Design: Clean, intuitive, and minimal user interface.
+---
 
-Intelligent Core: Leverages the power of the OpenAI Chat Completion API for quality content generation.
+## 📌 Project Timeline
 
-Full-Stack Architecture: Separated frontend and backend for robust development and deployment.
+- **Start Date:** 29 Nov 2025  
+- **Completion:** 30 Nov 2025 (Delivered within 8 hours, as required)
 
-Rapid Development: Designed and built under an aggressive time constraint (8-hour challenge).
+---
 
-Deployment Ready: Configured for seamless deployment on modern hosting platforms (Vercel & Render).
+## 🚀 Features
 
-🧩 Tech Stack
+- ⚡ **AI-generated proposals in seconds**
+- 📝 **Smart formatting** (Exec Summary → Problem → Solution → Pricing)
+- 🎨 **Clean and minimal UI**
+- 🔄 **Full-stack integration (React + Express)**
+- 🤖 **Uses OpenAI Chat Completions API**
+- 🌍 **Fully deployable (Vercel + Render)**
+- 🕒 **Built under the 8-hour Stage 2 challenge limitation**
 
-Component
+---
 
-Technology
+## 🛠 Tech Stack
 
-Description
+### **Frontend**
+- React (Vite)
+- Custom CSS
 
-Frontend
+### **Backend**
+- Node.js
+- Express.js
 
-React + Vite
+### **AI**
+- OpenAI Chat Completions API
 
-Fast and modern user interface development.
+### **Deployment**
+- **Vercel** → Frontend  
+- **Render** → Backend
 
-Backend
+---
 
-Node.js + Express
+## 📂 Project Structure
+```
+/
+├── frontend/
+│ ├── src/
+│ │ ├── App.jsx
+│ │ ├── App.css
+│ │ ├── index.css
+│ │ └── main.jsx
+│ └── package.json
+└── backend/
+├── index.js
+├── package.json
+└── .env (not included)
+```
 
-Simple, unopinionated backend server for handling API calls.
+---
 
-AI Layer
+## 🧪 How to Run Locally
 
-OpenAI Chat API
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/Ayush8566/AI_Proposal_Builder-.git
+cd AI_Proposal_Builder-
 
-The engine for generating context-aware proposals.
-
-Styling
-
-Custom CSS
-
-Focused, clean, and minimal styling.
-
-Deployment
-
-Vercel (Frontend) & Render (Backend)
-
-CI/CD and hosting solutions.
-
-⚙️ Local Setup Instructions
-
-Follow these steps to run the AI Proposal Builder locally.
-
-Prerequisites
-
-Node.js (LTS recommended)
-
-An OpenAI API Key
-
-1️⃣ Backend Setup
-
-Navigate to the backend directory, install dependencies, and start the server.
-
+---
+2️⃣ Run the Backend
 cd backend
 npm install
-node index.js
+echo "OPENAI_API_KEY=your_key" > .env
+echo "PORT=4000" >> .env
+npm start
+---
+  **Backend runs on:
+👉 http://localhost:4000
 
-
-Configuration:
-
-Create a file named .env in the backend directory and add your configuration variables:
-
-OPENAI_API_KEY=your_api_key
-PORT=4000
-
-
-The backend server will run at http://localhost:4000.
-
-2️⃣ Frontend Setup
-
-Navigate to the frontend directory, install dependencies, and start the development server.
-
-cd frontend
+3️⃣ Run the Frontend
+cd ../frontend
 npm install
 npm run dev
 
+---
+Frontend runs on:
+👉 http://localhost:5173
 
-The frontend application will run at: http://localhost:5173
+🚀 Deployment Guide
+Frontend → Vercel
 
-🌐 Deployment Guide
+Import repo
 
-This project is structured for easy deployment with services like Vercel (Frontend) and Render (Backend).
+Set Root Directory: /frontend
 
-🔹 Frontend (Vercel)
+Build Command: npm run build
 
-Push your entire repository to GitHub.
+Output Directory: dist
 
-Import the project into Vercel.
+Add env variable:
 
-Set the Root Directory to frontend.
+VITE_API_URL = https://your-backend-on-render
 
-Add the necessary environment variable:
+Backend → Render
 
-Name: VITE_API_URL
+Create new Web Service
 
-Value: https://your-backend-url.onrender.com (Replace with your actual Render URL).
+Set Root Directory: /backend
 
-Click Deploy.
-
-🔹 Backend (Render)
-
-Create a New Web Service on Render, connecting it to your GitHub repository.
-
-Set the Root Directory to backend.
-
-Set the Build Command to:
+Build Command:
 
 npm install
 
 
-Set the Start Command to:
+Start Command:
 
 npm start
 
 
-Add the necessary environment variable:
+Add environment variable:
 
-Name: OPENAI_API_KEY
+OPENAI_API_KEY = your_key
 
-Value: your_openai_key
+🎯 Purpose of This Project
 
-Click Deploy.
+This project demonstrates:
 
-🧪 How to Use
+Fast, clean problem-solving (built under 8 hours)
 
-Once the application is running (either locally or deployed):
+Practical AI implementation
 
-Open the frontend URL in your browser.
+Ability to design/ship a working prototype quickly
 
-Fill in the required inputs on the form:
+Fit with Lunim Studio's core themes:
 
-Select the Project Category (e.g., Website, Mobile App, Branding).
+Human-centered UX
 
-Enter the Client/Company Name.
+AI automation
 
-Provide a One-line Goal for the project.
+Rapid execution
 
-Add the Budget (optional).
 
-Click the "Generate Proposal" button.
+🔗 GitHub: https://github.com/Ayush8566
 
-The AI will instantly return a complete, structured project proposal in the designated output are
+🔗 LinkedIn: https://www.linkedin.com/in/ayush-kumar-9884b8262/
+
+✉️ Email: kumarayush59567@gmail.com
+
+Built with ⚡ speed, 🎯 clarity, and ❤️ passion for the Lunim Studio Stage 2 Challenge.
