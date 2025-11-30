@@ -29,31 +29,31 @@ Built as part of the **Lunim Studio – Stage 2 Engineering Case Study**.
 ## 📁 Project Structure
 
 /
-├── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── index.css
-│ │ └── main.jsx
-│ └── package.json
-└── backend/
+-├── frontend/
+-│ ├── src/
+-│ │ ├── App.jsx
+-│ │ ├── App.css
+-│ │ ├── index.css
+-│ │ └── main.jsx
+-│ └── package.json
+-└── backend/
 
 
-/
-├── frontend/
-│ ├── src/
-│ │ ├── App.jsx
-│ │ ├── App.css
-│ │ ├── index.css
-│ │ └── main.jsx
-│ └── package.json
-└── backend/
-├── index.js
-├── package.json
-└── .env (not included)
-├── index.js
-├── package.json
-└── .env (not included)
+-/
+-├── frontend/
+-│ ├── src/
+-│ │ ├── App.jsx
+-│ │ ├── App.css
+-│ │ ├── index.css
+-│ │ └── main.jsx
+-│ └── package.json
+-└── backend/
+-├── index.js
+-├── package.json
+-└── .env (not included)
+-├── index.js
+-├── package.json
+-└── .env (not included)
 
 
 ---
@@ -66,6 +66,7 @@ Built as part of the **Lunim Studio – Stage 2 Engineering Case Study**.
 cd backend
 npm install
 node index.js
+
 
 
 
