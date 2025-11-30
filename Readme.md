@@ -25,9 +25,19 @@ Built as part of the **Lunim Studio – Stage 2 Engineering Case Study**.
 - **Deployment:** Vercel (frontend) + Render (backend)
 
 ---
+-
+├── frontend/
+│ ├── src/
+│ │ ├── App.jsx
+│ │ ├── App.css
+│ │ ├── index.css
+│ │ └── main.jsx
+│ └── package.json
+└── backend/
+├── index.js
+├── package.json
+└── .env (not included)
 
-
----
 
 ## ⚙️ Local Setup Instructions
 
@@ -37,7 +47,6 @@ Built as part of the **Lunim Studio – Stage 2 Engineering Case Study**.
 cd backend
 npm install
 node index.js
-
 
 
 
