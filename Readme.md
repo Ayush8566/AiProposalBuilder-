@@ -75,8 +75,25 @@ echo "PORT=4000" >> .env
 npm start
 
 
-  ## 🧪 How to Run Locally
 
+---
+  Purpose of This Project
+
+This project demonstrates:
+
+Fast, clean problem-solving (built under 8 hours)
+
+Practical AI implementation
+
+Ability to design and ship a working prototype quickly
+
+Fit with Lunim Studio’s core themes:
+
+Human-centered UX
+
+AI automation
+
+Rapid execution
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/Ayush8566/AI_Proposal_Builder-.git
@@ -87,4 +104,5 @@ cd AI_Proposal_Builder-
 ✉️ Email: kumarayush59567@gmail.com
 
 Built with ⚡ speed, 🎯 clarity, and ❤️ passion for the Lunim Studio Stage 2 Challenge.
+
 
