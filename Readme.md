@@ -28,5 +28,17 @@ Built as part of the **Lunim Studio – Stage 2 Engineering Case Study**.
 
 ## 📁 Project Structure
 
+/
+├── frontend/
+│ ├── src/
+│ │ ├── App.jsx
+│ │ ├── App.css
+│ │ ├── index.css
+│ │ └── main.jsx
+│ └── package.json
+└── backend/
+├── index.js
+├── package.json
+└── .env (not included)
 
 
